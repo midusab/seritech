@@ -3,10 +3,10 @@ import { ShieldAlert, Users, Zap, Award } from "lucide-react";
 
 export default function About() {
   const stats = [
-    { value: "12,400+", label: "Sovereign Nodes Maintained", desc: "Server arrays, local training terminals, and core database clusters." },
-    { value: "99.99%", label: "Operational SLA Uptime", desc: "Rigid backup protocols and physical technician dispatch structures." },
-    { value: "128", label: "Government Agencies Integrated", desc: "Active connection gateways mapping secure municipal workflows." },
-    { value: "100%", label: "Public Regulatory Compliance", desc: "Fully certified by strict national cyber security audit teams." }
+    { value: "47 Assemblies", label: "County Assemblies Served", desc: "Chamber sound boards, voting terminals, and secure Hansard server nodes." },
+    { value: "10 Minutes", label: "Active Session SLA", desc: "Average on-site technician response standard to stabilize plenaries." },
+    { value: "1,500+ MCAs", label: "Legislators Equipped", desc: "Capacity built via custom interactive ward training computer classrooms." },
+    { value: "100% SLA Audit", label: "Procurement Compliant", desc: "Hardware and components certified under strict county legislative frameworks." }
   ];
 
   return (
@@ -17,17 +17,17 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           <div className="lg:col-span-5">
             <span className="text-xs font-mono font-bold uppercase tracking-wider text-[#E51B24] block mb-2">
-              Our Sovereign Mission
+              Our Sovereign SLA Mission
             </span>
             <h2 className="text-3xl md:text-4xl font-sans font-extrabold tracking-tight text-zinc-950 mb-6">
-              Modernizing Civil Services Through Resilient ICT Infrastructure
+              Supporting Assembly Legislative Chambers Across the County
             </h2>
             <div className="h-1 w-20 bg-[#E51B24] rounded mb-6" />
             <p className="text-sm text-zinc-600 font-sans leading-relaxed mb-4">
-              At Seritech ICT, we act as the operational spine for municipal and federal modernization efforts. We understand that civil systems cannot afford standard commercial software glitches, fragile architectures, or insecure, unmaintained infrastructure.
+              At Seritech ICT, we act as the operational spine for regional county assembly modernization efforts. We understand that democratic legislative sessions cannot afford standard commercial software freeze-ups, faulty microphone networks, or fragile Hansard servers.
             </p>
             <p className="text-sm text-zinc-600 font-sans leading-relaxed">
-              From physical installations—like community digital education facilities and self-sustaining solar backup nodes—to logical engineering—like cryptographic server configurations—our specialized team guarantees continuous, premium, and compliant technical assistance.
+              From on-site diagnostic standbys inside plenary chambers to setting up off-grid solar-powered computer labs in remote wards, our specialized engineers guarantee swift compliance assistance in line with county assembly regulations.
             </p>
           </div>
 

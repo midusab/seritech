@@ -4,18 +4,18 @@ import { ShieldAlert, Cpu, HeartHandshake, CheckCircle2, ChevronRight, ArrowDown
 
 export default function Hero() {
   const [scrollY, setScrollY] = useState(0);
-  const [ticketZone, setTicketZone] = useState("Metropolis Zone-A");
+  const [ticketZone, setTicketZone] = useState("Assembly Plenary Chamber");
   const [serviceSeverity, setServiceSeverity] = useState("Critical SLA");
   
   // Custom SLA Calculation
   const getEtaMessage = () => {
     if (serviceSeverity === "Critical SLA") {
-      return { eta: "Within 2 Hours", desc: "Immediate rapid response team dispatched with mobile toolkits, emergency redundancy hot-swap, security staff support.", badgeColor: "bg-red-500" };
+      return { eta: "Within 10 Minutes", desc: "Standby floor team enters sound control booth with hot-swappable mic panels & real-time e-voting bypass modules.", badgeColor: "bg-red-500" };
     }
     if (serviceSeverity === "Major Loss SLA") {
-      return { eta: "Within 4 Hours", desc: "Standard priority field technician squad deployed. Node bypass executed remotely within 15 minutes.", badgeColor: "bg-amber-500" };
+      return { eta: "Within 2 Hours", desc: "Hardware squad deployed specifically for auxiliary committee room diagnostic repairs and Hansard network restoration.", badgeColor: "bg-amber-500" };
     }
-    return { eta: "Within 12 Hours", desc: "Scheduled maintenance cycle. Component diagnostics sweep, cooling cleaning, local terminal updates.", badgeColor: "bg-blue-600" };
+    return { eta: "Within 12 Hours", desc: "Routine preventative maintenance cycle. Biometric state cleanups, audio levels balanced, and staff portal updates.", badgeColor: "bg-blue-600" };
   };
 
   useEffect(() => {
@@ -53,7 +53,7 @@ export default function Hero() {
           >
             <span className="bg-[#E51B24] w-2 h-2 rounded-full animate-pulse" />
             <span className="text-[10px] md:text-xs font-mono tracking-widest text-zinc-300 uppercase">
-              GOVERNMENT COMPLIANT • PUBLIC SECTOR ICT INHERENT
+              COUNTY ASSEMBLY COMPLIANT • CHAMBER NETWORK MAINTENANCE
             </span>
           </motion.div>
 
@@ -63,7 +63,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="text-4xl md:text-5xl lg:text-6xl font-sans font-extrabold tracking-tight leading-[1.1] text-white"
           >
-            Sovereign <span className="text-[#E51B24]">ICT Hub</span> Deployments & Servicing
+            County Assembly <span className="text-[#E51B24]">ICT & Plenary</span> Maintenance
           </motion.h1>
 
           <motion.p
@@ -72,7 +72,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-base md:text-lg text-zinc-400 max-w-xl font-sans font-light leading-relaxed"
           >
-            State-of-the-art server infrastructure setup, solar-powered teaching structures, and fast-response technical servicing. We help digital systems scale smoothly with robust uptime.
+            Complete physical upkeep and emergency field repair of chamber delegate audio, biometric voting screens, secure hansard databases, and ward-level legislative networks.
           </motion.p>
 
           <motion.div
@@ -110,22 +110,22 @@ export default function Hero() {
             <div className="flex items-start space-x-2.5">
               <CheckCircle2 className="w-5 h-5 text-[#E51B24] shrink-0 mt-0.5" />
               <div>
-                <h4 className="font-sans font-bold text-sm text-zinc-200">ISO Secure</h4>
-                <p className="font-sans text-[11px] text-zinc-400">Class-A certified</p>
+                <h4 className="font-sans font-bold text-sm text-zinc-200">Plenary Ready</h4>
+                <p className="font-sans text-[11px] text-zinc-400">Zero session delays</p>
               </div>
             </div>
             <div className="flex items-start space-x-2.5">
               <Cpu className="w-5 h-5 text-[#E51B24] shrink-0 mt-0.5" />
               <div>
-                <h4 className="font-sans font-bold text-sm text-zinc-200">99.99% Uptime</h4>
-                <p className="font-sans text-[11px] text-zinc-400">Database tier limits</p>
+                <h4 className="font-sans font-bold text-sm text-zinc-200">Hansard Safe</h4>
+                <p className="font-sans text-[11px] text-zinc-400">Cryptographic audit</p>
               </div>
             </div>
             <div className="flex items-start space-x-2.5">
               <HeartHandshake className="w-5 h-5 text-[#E51B24] shrink-0 mt-0.5" />
               <div>
-                <h4 className="font-sans font-bold text-sm text-zinc-200">Rapid SLA</h4>
-                <p className="font-sans text-[11px] text-zinc-400">Direct squad dispatch</p>
+                <h4 className="font-sans font-bold text-sm text-zinc-200">Live SLA</h4>
+                <p className="font-sans text-[11px] text-zinc-400">10-min active stand-by</p>
               </div>
             </div>
           </motion.div>
@@ -148,21 +148,21 @@ export default function Hero() {
             </div>
 
             <p className="text-xs text-zinc-400 mb-4 font-sans leading-relaxed">
-              Select an area sector and fault category to look up regional squad dispatch parameters and resolution standards.
+              Select an assembly sector and fault category to look up regional squad dispatch parameters and live floor backup standards.
             </p>
 
             <div className="grid grid-cols-2 gap-3 mb-4">
               <div>
-                <label className="block text-[10px] font-mono text-zinc-400 uppercase mb-1">Hub Zone / Area</label>
+                <label className="block text-[10px] font-mono text-zinc-400 uppercase mb-1">Chamber Sector / Wing</label>
                 <select 
                   value={ticketZone} 
                   onChange={(e) => setTicketZone(e.target.value)}
                   className="w-full bg-zinc-950 border border-zinc-800 text-xs rounded p-2 text-zinc-300 focus:outline-none focus:ring-1 focus:ring-[#E51B24]"
                 >
-                  <option value="Metropolis Zone-A">Metropolis Zone-A</option>
-                  <option value="Maritime Port Office">Maritime Port Office</option>
-                  <option value="North Hills Training Academy">North Hills Training Center</option>
-                  <option value="South Border Logistics Area">South Lands Registry</option>
+                  <option value="Assembly Plenary Chamber">Assembly Plenary Chamber</option>
+                  <option value="Committee Room Wing B">Committee Room Wing B</option>
+                  <option value="Sovereign Solar Ward Lab">Sovereign Solar Ward Lab</option>
+                  <option value="Precinct Admin Annex">Precinct Admin Annex</option>
                 </select>
               </div>
               <div>
@@ -172,9 +172,9 @@ export default function Hero() {
                   onChange={(e) => setServiceSeverity(e.target.value)}
                   className="w-full bg-zinc-950 border border-zinc-800 text-xs rounded p-2 text-zinc-300 focus:outline-none focus:ring-1 focus:ring-[#E51B24]"
                 >
-                  <option value="Critical SLA">Critical Fault (Hardware failure)</option>
-                  <option value="Major Loss SLA">Major Loss (Training portal bug)</option>
-                  <option value="Maintenance Cycle">Standard Servicing (Physical sweep)</option>
+                  <option value="Critical SLA">Critical Chamber Fault (Disrupts Session)</option>
+                  <option value="Major Loss SLA">Major Loss (Hansard / Sync Lag)</option>
+                  <option value="Maintenance Cycle">Standard Servicing (Physical Sweep)</option>
                 </select>
               </div>
             </div>
@@ -204,17 +204,17 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent z-10 opacity-70 transition-opacity group-hover:opacity-40" />
             <img 
               src="/src/assets/images/hero_command_center_1780478416781.png" 
-              alt="Seritech ICT National Command Center" 
+              alt="Seritech ICT Assembly Dispatch Team" 
               className="w-full h-full object-cover object-center transform scale-100 group-hover:scale-105 duration-1000 transition-transform"
               referrerPolicy="no-referrer"
             />
             <div className="absolute bottom-3 left-3 right-3 z-25 flex justify-between items-end">
               <div>
-                <span className="text-[9px] font-mono tracking-widest text-zinc-400 block uppercase">
-                  ACTIVE DEPLOYMENT
+                <span className="text-[9px] font-mono tracking-widest text-[#E51B24] block uppercase font-bold">
+                  ACTIVE PLENARY STANDBY
                 </span>
                 <h4 className="font-sans font-bold text-xs text-zinc-100">
-                  National ICT Command Facility (Hub-Z1-HQ)
+                  Assembly Chambers Central Sound Core (Sub-K1)
                 </h4>
               </div>
               <span className="text-[9px] font-mono px-2 py-0.5 bg-black/60 rounded border border-zinc-700/50">

@@ -36,7 +36,7 @@ export default function Services() {
             Service Portfolio
           </span>
           <h2 className="text-3xl md:text-4xl font-sans font-extrabold tracking-tight text-zinc-950 mb-4">
-            Specialized Government ICT Contracting and Lifecycle Servicing
+            County Assembly ICT Contracting & Chamber Maintenance
           </h2>
           <p className="font-sans text-sm text-zinc-600 leading-relaxed">
             We provide full-lifecycle support, from construction, network cablings, hardware deployments, to continuous hardware upkeep and SLA maintenance.

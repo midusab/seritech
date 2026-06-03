@@ -10,9 +10,9 @@ export default function ShowcaseGrid() {
 
   const filterTabs = [
     { value: "all", label: "All Portfolio" },
-    { value: "infrastructure", label: "Cryptographic Servers" },
-    { value: "citizen-portals", label: "Muncipal Kiosks" },
-    { value: "community-hubs", label: "Solar Classrooms" }
+    { value: "infrastructure", label: "Chamber & Voting" },
+    { value: "citizen-portals", label: "Public Gallery Kiosks" },
+    { value: "community-hubs", label: "Staff Solar Labs" }
   ];
 
   const filteredProjects = filter === "all"
@@ -30,10 +30,10 @@ export default function ShowcaseGrid() {
               LATEST DEPLOYED PHOTOGRAPHY
             </span>
             <h2 className="text-3xl md:text-4xl font-sans font-extrabold tracking-tight text-zinc-950">
-              Government ICT Hub Installations & Product Showcases
+              County Assembly ICT Installations & Chamber Upkeeps
             </h2>
             <p className="font-sans text-sm text-zinc-500 mt-3 leading-relaxed">
-              Real high-integrity deployments configured and actively serviced by our technician network. Filter the grid to explore regional installations.
+              Real high-integrity chamber and ward deployments maintained and actively serviced by our technician network. Filter the grid to explore local structures.
             </p>
           </div>
 

@@ -62,13 +62,13 @@ export default function InteractiveHubStatus() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>
               </span>
-              SOVEREIGN SQUAD telemetry & servicing
+              CHAMBER DISPATCH SQUAD TELEMETRY & SERVICING
             </span>
             <h2 className="text-3xl md:text-4xl font-sans font-extrabold tracking-tight">
-              Interactive Regional Hub Portals & SLA Monitor
+              Interactive Assembly Plenary Nodes & SLA Monitor
             </h2>
             <p className="font-sans text-sm text-zinc-400 mt-3 leading-relaxed max-w-2xl">
-              An inside look into our state servicing registry operations. Select any regional digital workstation classroom node below to audit uptime metrics, deploy simulated sweeps, or test SLA dispatch protocols.
+              An inside look into our county assembly maintenance operations. Select any regional digital workstation classroom node or chamber sound setup below to audit real-time uptime metrics, run live diagnostics, or test dispatcher response protocols.
             </p>
           </div>
 
@@ -96,7 +96,7 @@ export default function InteractiveHubStatus() {
           {/* Left panel (col-span-5): Node List Selection */}
           <div className="lg:col-span-5 flex flex-col space-y-4">
             <h3 className="font-mono text-xs text-zinc-500 uppercase tracking-widest px-1">
-              Select Regional ICT Center Node ({filteredHubs.length})
+              Select Assembly Chamber or Labs Node ({filteredHubs.length})
             </h3>
 
             <div className="space-y-3.5 max-h-[460px] overflow-y-auto pr-2 custom-scrollbar">

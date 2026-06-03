@@ -3,58 +3,58 @@ import { ServiceItem, ShowcaseProject, TestimonialItem, FAQItem, HubNode } from 
 export const SERVICES_DATA: ServiceItem[] = [
   {
     id: "svc-1",
-    title: "National Digital Infrastructure & Server Maintenance",
+    title: "County Assembly Plenary Chamber & Sound Maintenance",
     category: "infrastructure",
-    description: "Full-scale deployment and proactive maintaining of sovereign servers, secure database nodes, high-fidelity fiber backbones, and state-of-the-art secure government cloud hosting.",
+    description: "Full preventative upkeep and emergency repair of delegate microphones, e-voting terminals, central chamber audio integration, biometric registration modules, and secure hansard backup systems.",
     details: [
-      "24/7 National Operations Command Center Monitoring",
-      "Redundant solar/grid power coupling and physical backup system maintenance",
-      "Intrusion detection, cryptographic system state validation, and secure air-gaping",
-      "Complete equipment lifecycle management and hardware servicing"
+      "Rigid daily diagnostics sweep prior to plenary session start",
+      "Dynamic acoustic monitoring and audio feedback stabilization",
+      "Biometric seat-register validation and secure voting hardware servicing",
+      "Emergency hot-spare terminal deployment for immediate delegate swap"
     ],
-    sla: "99.99% Node Uptime SLA",
+    sla: "10-Minute Live Plenary Restore SLA",
     iconName: "Server"
   },
   {
     id: "svc-2",
-    title: "Regional Government ICT Training Hubs",
+    title: "County Legislative ICT Training Hubs",
     category: "training",
-    description: "Engineering and constructing solar-powered physical centers equipped for civil servant capacity-building, digital literacy training, and community-first digital access projects.",
+    description: "Designing, setting up, and maintaining continuous solar-powered training facilities within county wards to build capacity for County Assembly staff, MCAs, and clerks.",
     details: [
-      "Custom classroom space layout, networking, and terminal supply",
-      "Self-sustaining off-grid energy configurations (Sovereign Solar setups)",
-      "Curriculum training portals and localized local-area network (LAN) libraries",
-      "Regular hardware tune-ups and physical terminal upgrades"
+      "Modern physical terminal layouts with reliable multi-seat local network rings",
+      "Off-grid Sovereign Solar power arrays guarding against grid disruption",
+      "Interactive digital portal training setups for bill-tracking and research",
+      "Continuous preventative physical servicing sweeps for lab workstations"
     ],
-    sla: "Bi-annual on-site terminal optimization",
+    sla: "Monthly on-site hardware optimizations",
     iconName: "MonitorPlay"
   },
   {
     id: "svc-3",
-    title: "Unified Citizen Service Portals",
+    title: "Statewide Bill-Tracking & e-Assembly Portals",
     category: "software",
-    description: "Designing, building, and maintaining multi-channel software portals that digitize and streamline civic operations, from business registration to license renewal.",
+    description: "Engineering and updating interactive web platforms that display county motions, passed legislation, and committee papers cleanly to citizens and county officers alike.",
     details: [
-      "Integrated identity checking & secure civil databases",
-      "Accessible responsive UI/UX compliant with official accessibility directives",
-      "API brokers communicating across ministries, departments, and agencies (MDAs)",
-      "Continuous secure deployment & automated security updates"
+      "Real-time metadata ingestion of live county session status",
+      "Modern accessible UI built specifically for legislative researchers",
+      "Secure cloud database backups for passed bylaws and statutory papers",
+      "Automated cryptographic state monitoring protecting public records"
     ],
-    sla: "Sub-seconds database transacting",
+    sla: "99.99% Website & API availability",
     iconName: "Workflow"
   },
   {
     id: "svc-4",
-    title: "State Municipal Kiosk Implementations",
+    title: "County Assembly Biometric Access Control Systems",
     category: "infrastructure",
-    description: "Sourcing, setting up, and maintaining secure physical self-service kiosk hardware terminals inside municipal lobbies and remote community administrative locations.",
+    description: "Installing and servicing heavy-duty magnetic biometric entry barriers, public gallery scanning hubs, and modern credential gates across County Assembly complexes.",
     details: [
-      "Hardened anti-vandalism chassis with multi-point bio-readers ",
-      "Touch screen system integration with low-power offline caching layers",
-      "Strict regular maintenance sweeps and physical key repairs",
-      "Remote system configuration updates through secure VPN channels"
+      "Hardened biometric sensors integrated with official staff databases",
+      "Auxiliary backup battery systems providing safe egress during blackouts",
+      "Regular physical friction testing, diagnostic alignments, and key repairs",
+      "Remote system configuration updates through secure air-gapped lines"
     ],
-    sla: "Same-day on-site servicing support",
+    sla: "Same-day physical gate restorations",
     iconName: "Fingerprint"
   }
 ];
@@ -62,32 +62,32 @@ export const SERVICES_DATA: ServiceItem[] = [
 export const SHOWCASE_DATA: ShowcaseProject[] = [
   {
     id: "proj-1",
-    title: "Sovereign State Cryptographic Server Array",
+    title: "Main Plenary Chamber Audio & Voting Renovation",
     category: "infrastructure",
-    location: "Federal Government District Data Center",
-    description: "An immaculately managed core server farm layout with redundant routing and pristine optical fiber structuring designed for high confidential databases.",
+    location: "Metro County Assembly Headquarters",
+    description: "Complete physical overhaul of chamber delegate stations, introducing high-fidelity digital audio lines, biometric voting screens, and a secure server backbone.",
     imageUrl: "/src/assets/images/secure_systems_1780478450565.png",
-    metrics: { label: "Data Integrity Sec", value: "256-bit AES" },
+    metrics: { label: "Plenary Latency", value: "< 50ms" },
     year: "2025"
   },
   {
     id: "proj-2",
-    title: "Civic Portal Information Service Kiosks",
+    title: "Interactive Public Gallery Kiosk Display Terminal",
     category: "citizen-portals",
-    location: "Metro Hall Registry Lobby",
-    description: "Touch-interactive self-service systems empowering citizens to update records and register land titles instantly without standing in physical lines.",
+    location: "Lobby Admin Center, County Ward B",
+    description: "Self-service information portals enabling citizens to browse passed county motions, session calendars, and submit direct petitions to the Speaker's office.",
     imageUrl: "/src/assets/images/municipal_kiosk_1780478466987.png",
-    metrics: { label: "Wait-Time Reduced", value: "84%" },
+    metrics: { label: "Motions Accessed", value: "34,000+" },
     year: "2026"
   },
   {
     id: "proj-3",
-    title: "Solar-Powered Community ICT Classrooms",
+    title: "Sovereign Solar Legislative Staff Training Facility",
     category: "community-hubs",
-    location: "North Region Municipal Center",
-    description: "Complete physical training infrastructure featuring solar setups, localized terminal environments, and integrated educational content systems.",
+    location: "Rural Precinct Training Core",
+    description: "Full construction of a sustainable solar legislative computer classroom used to train county coordinators, researchers, and records assistants.",
     imageUrl: "/src/assets/images/community_ict_hub_1780478435839.png",
-    metrics: { label: "Tech Literates Trained", value: "14,500+" },
+    metrics: { label: "Clerks Certified", value: "820+" },
     year: "2026"
   }
 ];
@@ -95,26 +95,26 @@ export const SHOWCASE_DATA: ShowcaseProject[] = [
 export const TESTIMONIALS_DATA: TestimonialItem[] = [
   {
     id: "t-1",
-    quote: "Seritech has completely re-engineered how our local governments process operations. Their regular servicing schedule keeps our municipal servers running perfectly, with near zero downtime.",
+    quote: "During our crucial budget debate, the chamber sound board experienced a foreign power surge. Seritech's standby diagnostic team hot-swapped the voting backbone within 6 minutes. Outstanding live SLA execution.",
     author: "Hon. Sarah Jenkins",
-    role: "Commissioner for Digital Transformation",
-    agency: "State Ministry of Administrative Services",
+    role: "Speaker of the County Assembly",
+    agency: "Metro County Legislative Assembly",
     avatarUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
   },
   {
     id: "t-2",
-    quote: "The combination of physical training classrooms and self-sustainable solar panels has empowered thousands of youth. Having an ICT provider who handles everything from cabling to teaching portals has been a absolute lifesaver.",
+    quote: "We needed our legislative staff and MCAs fully equipped to parse municipal bills digitally. Seritech constructed our solar computer classrooms and provided complete curriculum portal upkeep. It has been a lifesaver.",
     author: "David Alao",
-    role: "Director of Community Empowerment",
-    agency: "National ICT Commission",
+    role: "Head of Legislative Secretariat & Clerk",
+    agency: "Eastern Region Assembly District",
     avatarUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
   },
   {
     id: "t-3",
-    quote: "Security regulations are extremely rigid for state databases. Seritech's regular audit routines and rapid-response technician team give our administrators absolute peace of mind.",
+    quote: "With strict county security bylaws, our legal databases must remain flawless. Seritech's regular proactive audit sweeps and automated backups give our administration absolute peace of mind.",
     author: "Lt. Col. Robert Vance",
-    role: "Chief of Infrastructure Defense",
-    agency: "Defense & Civil Cyber Directorate",
+    role: "County ICT Security Coordinator",
+    agency: "Joint Assembly Security Directorate",
     avatarUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200"
   }
 ];
@@ -122,26 +122,26 @@ export const TESTIMONIALS_DATA: TestimonialItem[] = [
 export const FAQ_DATA: FAQItem[] = [
   {
     id: "faq-1",
-    question: "Do you integrate with legacy government database engines?",
-    answer: "Absolutely. We specialize in retrofitting older mainframe legacy data banks with up-to-date RESTful or GraphQL compliant APIs, securely wrapping historic citizen fields inside high-integrity cyber vaults.",
+    question: "How does Seritech prevent live audio feed disruptions during crucial plenary sessions?",
+    answer: "We deploy physical, local-redundancy setups. Central systems run dual-mixer backups operating on independent uninterrupted power supplies (UPSs). Our certified standby technicians remain seated in the control booth during active debates to handle manual overrides instantly if a hardware fault manifests.",
     category: "technical"
   },
   {
     id: "faq-2",
-    question: "How does the servicing contract and responsive SLA system operate?",
-    answer: "Our contracts feature a fully tiered Service Level Agreement (SLA). We have certified technicians stationed strategically in municipal quadrants who guarantee standard on-site physical assistance within 4 hours for Tier-1 errors, and immediate remote assistance via unified telemetry.",
+    question: "What is your typical diagnostic turnaround under county contract agreements?",
+    answer: "Our SLA tiering offers designated county dispatch teams. For active assembly plenary debates, we guarantee a 10-minute on-site response. For auxiliary department support, we operate under a compliant 4-hour window.",
     category: "support"
   },
   {
     id: "faq-3",
-    question: "Are Seritech ICT hub components standard for government procurement regulations?",
-    answer: "Yes, our hardware procurement channels, software modules, and physical labor practices comply fully with public procurement acts, cybersecurity safety laws, and green energy utilization guidelines.",
+    question: "Do Seritech components meet County Assembly public procurement rules?",
+    answer: "Yes. All procurement practices, hardware sourcing, solar components, and labor comply fully with county assembly procurement frameworks, national carbon-neutrality initiatives, and strict safety audits.",
     category: "procurement"
   },
   {
     id: "faq-4",
-    question: "How are the training hub spaces powered physically?",
-    answer: "We offer zero-emission smart architectural integration. Each hub can be configured with modular solar roofing, battery storage, and smart power invertors, bypassing standard electric grids to ensure complete operational sustainability and disaster proofing.",
+    question: "Can you retroactively update older historical chamber microphone systems?",
+    answer: "Absolutely. We specialize in hybrid audio engineering. We can utilize existing analog cabling trunks and integrate modern biometric e-voting keypads and high-gain digital delegates microphones without requiring extensive masonry tearing.",
     category: "technical"
   }
 ];
@@ -149,18 +149,18 @@ export const FAQ_DATA: FAQItem[] = [
 export const SIMULATED_HUBS: HubNode[] = [
   {
     id: "node-1",
-    name: "Capital Central Operations Node",
-    region: "Metropolis Grid Zone-A",
+    name: "County Assembly Central Chamber Node",
+    region: "Headquarters Assembly Complex",
     status: "active",
-    bandwidth: "10 Gbps Cryptographic Backbone",
+    bandwidth: "10 Gbps Cryptographic Sound Backhaul",
     uptime: "99.998%",
     powerSource: "Backup Array",
-    workstations: 48
+    workstations: 64
   },
   {
     id: "node-2",
-    name: "East Coast Municipal Tech Hub",
-    region: "Maritime Registry District",
+    name: "County Assembly East Precinct Lab",
+    region: "East Ward Administrative Wing",
     status: "active",
     bandwidth: "2 Gbps Fiber Uplink",
     uptime: "99.95%",
@@ -169,8 +169,8 @@ export const SIMULATED_HUBS: HubNode[] = [
   },
   {
     id: "node-3",
-    name: "North Hills Training Academy",
-    region: "Semi-Arid Community Center",
+    name: "County Assembly Committee Training Room",
+    region: "Annex Committee Complex Center",
     status: "maintenance",
     bandwidth: "1 Gbps Encrypted Wave",
     uptime: "99.80%",
@@ -179,8 +179,8 @@ export const SIMULATED_HUBS: HubNode[] = [
   },
   {
     id: "node-4",
-    name: "Industrial Port Logistics Terminal",
-    region: "Free Trade Administrative Zone",
+    name: "Sub-County Registry Terminal",
+    region: "Precinct Southern Office",
     status: "scheduled",
     bandwidth: "5 Gbps Fiber Ring",
     uptime: "Planned",

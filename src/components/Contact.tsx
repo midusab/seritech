@@ -7,7 +7,7 @@ export default function Contact() {
     name: "",
     email: "",
     agency: "",
-    serviceType: "New Hub Infrastructure",
+    serviceType: "New Chamber Sound & Audio Setup",
     message: "",
     severity: "Routine"
   });
@@ -29,10 +29,10 @@ export default function Contact() {
       return;
     }
 
-    // Generate simulated public procurement tracking ticket
+    // Generate simulated assembly SLA tracking ticket
     const randomNum = Math.floor(1000 + Math.random() * 9000);
     const suffix = formData.severity === "Immediate SLA Dispatch" ? "EMERG" : "GEN";
-    const ticketId = `GOV-${randomNum}-${suffix}`;
+    const ticketId = `ASM-${randomNum}-${suffix}`;
     const timestamp = new Date().toLocaleString();
 
     setTicketState({
@@ -47,7 +47,7 @@ export default function Contact() {
       name: "",
       email: "",
       agency: "",
-      serviceType: "New Hub Infrastructure",
+      serviceType: "New Chamber Sound & Audio Setup",
       message: "",
       severity: "Routine"
     });
@@ -71,10 +71,10 @@ export default function Contact() {
                 OPERATIONAL ACCESS
               </span>
               <h2 className="text-3xl md:text-4xl font-sans font-extrabold tracking-tight text-zinc-950">
-                Liaise with Our Service Dispatch
+                Liaise with Assembly Service Dispatch
               </h2>
               <p className="font-sans text-sm text-zinc-600 leading-relaxed mt-4">
-                Reach out to register a sovereign servicing contract, procure new modular community classroom hubs, or submit an immediate field hardware request.
+                Reach out to register a county assembly servicing SLA contract, procure ward training platforms, or log a live Sound/Hansard hardware emergency repair.
               </p>
             </div>
 
@@ -173,13 +173,13 @@ export default function Contact() {
 
                   <div>
                     <label className="block text-xs font-sans font-semibold text-zinc-800 mb-1.5">
-                      Government Agency / Ministry
+                      County Assembly / Electoral Ward
                     </label>
                     <input
                       type="text"
                       value={formData.agency}
                       onChange={(e) => setFormData({ ...formData, agency: e.target.value })}
-                      placeholder="e.g. Ministry of Registry & Records"
+                      placeholder="e.g. Metro County Assembly Plenary Dept"
                       className="w-full bg-white border border-zinc-200 text-sm rounded-lg p-3 text-zinc-900 focus:outline-none focus:ring-1 focus:ring-[#E51B24] focus:border-[#E51B24]"
                     />
                   </div>
@@ -194,10 +194,10 @@ export default function Contact() {
                         onChange={(e) => setFormData({ ...formData, serviceType: e.target.value })}
                         className="w-full bg-white border border-zinc-200 text-sm rounded-lg p-3 text-zinc-900 focus:outline-none focus:ring-1 focus:ring-[#E51B24]"
                       >
-                        <option value="New Hub Infrastructure">New Hub Digital Classroom</option>
-                        <option value="Physical Terminal Maintenance">Physical Terminal Maintenance</option>
-                        <option value="Database Server Cryptography">Database Cryptography Support</option>
-                        <option value="General SLA Inquiry">General Procurement SLA Contract</option>
+                        <option value="New Chamber Sound & Audio Setup">New Chamber Sound & Audio Setup</option>
+                        <option value="Biometric Seat E-Voting Maintenance">Biometric Seat E-Voting Maintenance</option>
+                        <option value="Hansard Database & Storage Maintenance">Hansard Database & Storage Maintenance</option>
+                        <option value="Ward-level Ward Coordinator ICT Support">Ward-level Ward Coordinator ICT Support</option>
                       </select>
                     </div>
 
@@ -212,7 +212,7 @@ export default function Contact() {
                       >
                         <option value="Routine">Standard Planning Sweep (Routine)</option>
                         <option value="System Minor Repair">Non-Blocking Minor SLA Repair</option>
-                        <option value="Immediate SLA Dispatch">CRITICAL SERVICE DISRUPTION (SLA team)</option>
+                        <option value="Immediate SLA Dispatch">CRITICAL FLOOR DISRUPTION (10-Min SLA)</option>
                       </select>
                     </div>
                   </div>
@@ -225,7 +225,7 @@ export default function Contact() {
                       rows={4}
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      placeholder="Please delineate localized node locations, server chassis parameters, cabling demands, or physical repair timelines."
+                      placeholder="Please detail specific chamber seating quadrants, microphone models, Hansard network routing issues, or target plenary timelines."
                       className="w-full bg-white border border-zinc-200 text-sm rounded-lg p-3 text-zinc-900 focus:outline-none focus:ring-1 focus:ring-[#E51B24] focus:border-[#E51B24]"
                     />
                   </div>

@@ -20,7 +20,7 @@ export default function FAQ() {
             Inquiry Center
           </span>
           <h2 className="text-3xl md:text-4xl font-sans font-extrabold tracking-tight text-zinc-950 mb-4">
-            Frequently Asked Public Sector Questions
+            Frequently Asked Assembly Inquiry Questions
           </h2>
           <p className="font-sans text-sm text-zinc-600 leading-relaxed">
             Review detailed criteria regarding deployment standards, procurement protocols, and ongoing hardware servicing agreements.
