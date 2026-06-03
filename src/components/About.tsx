@@ -24,7 +24,7 @@ export default function About() {
             </h2>
             <div className="h-1 w-20 bg-[#E51B24] rounded mb-6" />
             <p className="text-sm text-zinc-600 font-sans leading-relaxed mb-4">
-              At GovHub ICT, we act as the operational spine for municipal and federal modernization efforts. We understand that civil systems cannot afford standard commercial software glitches, fragile architectures, or insecure, unmaintained infrastructure.
+              At Seritech ICT, we act as the operational spine for municipal and federal modernization efforts. We understand that civil systems cannot afford standard commercial software glitches, fragile architectures, or insecure, unmaintained infrastructure.
             </p>
             <p className="text-sm text-zinc-600 font-sans leading-relaxed">
               From physical installations—like community digital education facilities and self-sustaining solar backup nodes—to logical engineering—like cryptographic server configurations—our specialized team guarantees continuous, premium, and compliant technical assistance.

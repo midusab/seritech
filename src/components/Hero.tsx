@@ -204,7 +204,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent z-10 opacity-70 transition-opacity group-hover:opacity-40" />
             <img 
               src="/src/assets/images/hero_command_center_1780478416781.png" 
-              alt="GovHub ICT National Command Center" 
+              alt="Seritech ICT National Command Center" 
               className="w-full h-full object-cover object-center transform scale-100 group-hover:scale-105 duration-1000 transition-transform"
               referrerPolicy="no-referrer"
             />
@@ -218,7 +218,7 @@ export default function Hero() {
                 </h4>
               </div>
               <span className="text-[9px] font-mono px-2 py-0.5 bg-black/60 rounded border border-zinc-700/50">
-                Maintained by GovHub Sys
+                Maintained by Seritech Sys
               </span>
             </div>
           </motion.div>

@@ -95,7 +95,7 @@ export const SHOWCASE_DATA: ShowcaseProject[] = [
 export const TESTIMONIALS_DATA: TestimonialItem[] = [
   {
     id: "t-1",
-    quote: "CivicHub has completely re-engineered how our local governments process operations. Their regular servicing schedule keeps our municipal servers running perfectly, with near zero downtime.",
+    quote: "Seritech has completely re-engineered how our local governments process operations. Their regular servicing schedule keeps our municipal servers running perfectly, with near zero downtime.",
     author: "Hon. Sarah Jenkins",
     role: "Commissioner for Digital Transformation",
     agency: "State Ministry of Administrative Services",
@@ -111,7 +111,7 @@ export const TESTIMONIALS_DATA: TestimonialItem[] = [
   },
   {
     id: "t-3",
-    quote: "Security regulations are extremely rigid for state databases. CivicHub's regular audit routines and rapid-response technician team give our administrators absolute peace of mind.",
+    quote: "Security regulations are extremely rigid for state databases. Seritech's regular audit routines and rapid-response technician team give our administrators absolute peace of mind.",
     author: "Lt. Col. Robert Vance",
     role: "Chief of Infrastructure Defense",
     agency: "Defense & Civil Cyber Directorate",
@@ -134,7 +134,7 @@ export const FAQ_DATA: FAQItem[] = [
   },
   {
     id: "faq-3",
-    question: "Are GovHub ICT hub components standard for government procurement regulations?",
+    question: "Are Seritech ICT hub components standard for government procurement regulations?",
     answer: "Yes, our hardware procurement channels, software modules, and physical labor practices comply fully with public procurement acts, cybersecurity safety laws, and green energy utilization guidelines.",
     category: "procurement"
   },

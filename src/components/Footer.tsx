@@ -22,7 +22,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="text-xl font-sans font-bold tracking-tight text-white block">
-                  GovHub <span className="text-[#E51B24]">ICT</span>
+                  Seritech <span className="text-[#E51B24]">ICT</span>
                 </span>
                 <span className="text-[9px] font-mono tracking-widest text-zinc-400 uppercase block -mt-1">
                   Sovereign Engineering
@@ -99,7 +99,7 @@ export default function Footer() {
                 <Activity className="w-4 h-4 text-[#E51B24] shrink-0 mt-0.5" />
                 <span>
                   <strong>National Registry Security Dispatcher:</strong> <br />
-                  <span className="text-zinc-300 font-semibold">service@govhub-ict.net</span>
+                  <span className="text-zinc-300 font-semibold">service@seritech-ict.net</span>
                 </span>
               </li>
             </ul>
@@ -110,7 +110,7 @@ export default function Footer() {
         {/* Bottom copyright details and scroll to top button */}
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-[10px] font-sans text-zinc-500 text-center sm:text-left">
-            © {currentYear} GovHub ICT Services Ltd. All sovereign database systems and community training centers reserved under regional governance and SLA regulatory controls.
+            © {currentYear} Seritech ICT Services Ltd. All sovereign database systems and community training centers reserved under regional governance and SLA regulatory controls.
           </p>
 
           <button

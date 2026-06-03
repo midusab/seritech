@@ -111,7 +111,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-sans font-bold text-sm text-zinc-950 block">General Procurement Liaison</h4>
                   <p className="font-sans text-xs text-zinc-600 mt-1">
-                    procure@govhub-ict.net
+                    procure@seritech-ict.net
                   </p>
                 </div>
               </div>

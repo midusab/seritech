@@ -48,7 +48,7 @@ export default function Navbar() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
           </span>
-          <span className="text-zinc-400">CIVICHUB DISPATCH ACTIVE: All 4 municipal sectors operating under peak SLA.</span>
+          <span className="text-zinc-400">SERITECH DISPATCH ACTIVE: All 4 municipal sectors operating under peak SLA.</span>
         </div>
         <div className="hidden md:flex items-center space-x-4 text-zinc-400">
           <span className="flex items-center gap-1">
@@ -79,7 +79,7 @@ export default function Navbar() {
               </div>
               <div>
                 <span className="text-xl font-sans font-bold tracking-tight text-zinc-950 block">
-                  GovHub <span className="text-[#E51B24]">ICT</span>
+                  Seritech <span className="text-[#E51B24]">ICT</span>
                 </span>
                 <span className="text-[9px] font-mono tracking-widest text-zinc-500 uppercase block -mt-1">
                   Sovereign Engineering
